@@ -5,8 +5,8 @@ module.exports.mailer = (email,message)=>{
 var transporter = nodemailer.createTransport({
     service:"gmail",
     auth:{
-        user:"jagannath18@navgurukul.org",
-        pass: "1017114@Jagan"
+        user:"your Email address",
+        pass: "your password"
     }
 })
 
@@ -15,7 +15,7 @@ var transporter = nodemailer.createTransport({
 // user configuration email where we will send verification detail
 
 const mailOption ={
-        from : "jagannath18@navgurukul.org", // sender email add.
+        from : "Your email", // sender email add.
         to : email, // user email address.
         subject : 'Email verification',
         html : message  // plain text body
