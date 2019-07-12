@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 var conn = {
     host : 'localhost',
-    user : 'root',
-    password : 'jagan@jagan',
+    user : 'username',
+    password : 'password',
     database : 'zomato'
 };
 
